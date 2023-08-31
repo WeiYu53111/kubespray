@@ -30,7 +30,7 @@ download_run_once: false
 download_compress: 1
 
 # if this is set to true will download container
-download_container: true
+download_container: false
 
 # if this is set to true, uses the localhost for download_run_once mode
 # (requires docker and sudo to access docker). You may want this option for
@@ -1957,7 +1957,7 @@ downloads:
 
 download_defaults:
   container: false
-  file: false
+  file: true
   repo: None
   tag: None
   enabled: false
